@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+  background-color: linen;
+}
+/* BODY STYLE*/
+body{
+  margin: 0;
+  padding: 1em;
+}
+/*SEARCH BAR STYLE*/
+input{
+  margin: 0 auto;
+}
+input[type="search"] {
+  display: block;
+  width: 50%;
+  margin: 0 auto 2em;
+  border: 2px solid rgb(4, 187, 187);
+  border-radius: 15px;
+  color: #2F4F4F;
+  outline: none;
+  font-size: 1.75em;
+}
+input[type="search"]:focus {
+  border: 2px solid darkgray;
+}
+/*IMAGE STYLE*/
+img{
+  border: solid 2px rgb(4, 187, 187);
+  padding: 3px;
+  margin: 1.25em;
+}
+img:hover {
+  box-shadow: inset 0 0 0 15px darkgray;
+}
+/* THUMBNAIL STYLE*/
+.photoGallery{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+/*Footer Styling-------------------------------------------------------*/
+.footer{
+  left: 0;
+  bottom:0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.2em;
+}
+/*Contact Page Stying*/
+.contactInformation{
+text-align: center;
+}
