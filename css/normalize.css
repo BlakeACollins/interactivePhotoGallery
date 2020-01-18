@@ -177,6 +177,19 @@ button,
 input { /* 1 */
   overflow: visible;
 }
+.imageSearch[type="search"] {
+  display: block;
+  width: 50%;
+  margin: 0 auto 2em;
+  border: 2px solid rgb(4, 187, 187);
+  border-radius: 15px;
+  color: #2F4F4F;
+  outline: none;
+  font-size: 1.75em;
+}
+input[type="search"]:focus {
+  border: 2px solid darkgray;
+}
 
 /**
  * Remove the inheritance of text transform in Edge, Firefox, and IE.

@@ -1,3 +1,4 @@
+/*CREATED BY BLAKE COLLINS*/
 * {
   box-sizing: border-box;
 }
@@ -10,11 +11,12 @@ body{
   margin: 0;
   padding: 1em;
 }
+span{
+  text-align: center;
+}
 /*SEARCH BAR STYLE*/
 input{
   margin: 0 auto;
-}
-input[type="search"] {
   display: block;
   width: 50%;
   margin: 0 auto 2em;
@@ -24,8 +26,8 @@ input[type="search"] {
   outline: none;
   font-size: 1.75em;
 }
-input[type="search"]:focus {
-  border: 2px solid darkgray;
+input:focus {
+  border: 2px solid lightgoldenrodyellow;
 }
 /*IMAGE STYLE*/
 img{
