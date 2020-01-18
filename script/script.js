@@ -1,3 +1,4 @@
+/*CREATED BY BLAKE COLLINS*/
 $(".photoGallery").hide().delay(500).fadeIn(1000);
 
 const $gallery_items = $(".photoGallery a");
