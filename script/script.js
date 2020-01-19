@@ -1,17 +1,15 @@
 /*CREATED BY BLAKE COLLINS*/
-$(".photoGallery").hide().delay(200).fadeIn(300);
+$(".photoGallery").hide().delay(250).fadeIn(200);
 
-const $gallery_items = $(".photoGallery a");
+const $galleryPhotos = $(".photoGallery a");
 
 $("#imageSearch").on("keyup", function(event) {
   let $search = $(event.target).val().toUpperCase();
-  for ( let i = 0 ; i < $gallery_items.length ; i += 1) {
-    let $imageSearch = $gallery_items.eq(i);
-    if ($imageSearch.attr("data-title").toUpperCase().indexOf($search) === -1) {
-      $imageSearch.fadeOut(200);
-    } 
-    if ($imageSearch.attr("data-title").toUpperCase().indexOf($search) !== -1) {
-      $imageSearch.hide().fadeIn(200);
-    }
+    for ( let i = 0 ; i < $galleryPhotos.length ; i += 1) {
+        let $imageSearch = $galleryPhotos.eq(i);
+            if ($imageSearch.attr("data-title").toUpperCase().indexOf($search) === -1) {
+                $imageSearch.fadeOut(200);} 
+            if ($imageSearch.attr("data-title").toUpperCase().indexOf($search) !== -1) {
+                $imageSearch.hide().fadeIn(200);}
   }
 });
