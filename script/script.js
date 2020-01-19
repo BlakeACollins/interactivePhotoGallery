@@ -1,8 +1,7 @@
 /*CREATED BY BLAKE COLLINS*/
-$(".photoGallery").hide().delay(250).fadeIn(200);
 
 const $galleryPhotos = $(".photoGallery a");
-
+$(".photoGallery").hide().delay(250).fadeIn(200);
 $("#imageSearch").on("keyup", function(event) {
   let $search = $(event.target).val().toUpperCase();
     for ( let i = 0 ; i < $galleryPhotos.length ; i += 1) {
