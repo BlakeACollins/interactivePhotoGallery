@@ -8,3 +8,6 @@ I used Lightbox.js for the shadow box effect.
 
 
 Check it out! https://blakeacollins.github.io/interactivePhotoGallery/
+# Overall Comments
+"Congratulations, you got the exceeds requirement this time around.
+The layout of your gallery look great, and you search is working perfectly."
